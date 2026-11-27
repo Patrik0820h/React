@@ -75,7 +75,7 @@ export default function({nev, ar, kedvezmeny, szabad, csillag, ertekeles}) {
     } else {
         return (
             <>
-            <div style={{position: "relative",padding: "20px",border: "1px solid #ddd",borderRadius: "12px",backgroundColor: "#fff",boxShadow: "0 2px 8px rgba(0,0,0,0.08)",transition: "opacity 0.3s ease", width:"225px", opacity: halvany ?? 1}}>
+            <div style={{position: "relative",padding: "55px 20px 20px",border: "1px solid #ddd",borderRadius: "12px",backgroundColor: "#fff",boxShadow: "0 2px 8px rgba(0,0,0,0.08)",transition: "opacity 0.3s ease", width:"225px", opacity: halvany ?? 1}}>
                 <p>{nev}</p>
                 <p style={{color:"gold"}}>{csilagsor}</p>
 
